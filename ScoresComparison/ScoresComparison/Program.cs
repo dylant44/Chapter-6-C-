@@ -32,7 +32,7 @@ namespace ScoresComparison
                 }
                 else if(scores[i] == prevScore)
                 {
-                    improvement = improvement + 1;
+                    improvement = improvement + 0;
                 }
                 prevScore = scores[i];
             }
@@ -60,6 +60,9 @@ namespace ScoresComparison
                 {
                     WriteLine(scores[j]);
                 }
+
+                // just need to do the inconsistent score message
+
             }
         }
     }
