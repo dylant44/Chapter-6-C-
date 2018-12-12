@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessingAround", "MessingAround\MessingAround.csproj", "{07BB08D7-319B-45BE-9112-8134F6B02A8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07BB08D7-319B-45BE-9112-8134F6B02A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BB08D7-319B-45BE-9112-8134F6B02A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BB08D7-319B-45BE-9112-8134F6B02A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BB08D7-319B-45BE-9112-8134F6B02A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB57F13F-D2EC-40B4-A527-9C56AA94549D}
+	EndGlobalSection
+EndGlobal

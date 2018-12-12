@@ -13,17 +13,23 @@ namespace ResortPrices
         {
             int[] prices = {200, 200, 180, 180, 160, 160, 160, 145};
             int nights = 0;
+            int arrayLocation;
+            int pricePerNight = 0;
+            int total = 0;
 
             WriteLine("Enter the number of nights you will be staying");
             nights = Convert.ToInt32(ReadLine());
-            int arrayLocation = nights - 1;
+            arrayLocation = nights - 1;
+            pricePerNight = prices[arrayLocation];
+            total = pricePerNight * nights;
+
 
             if (nights > 8)
             {
                 arrayLocation = 7;
             }
 
-            WriteLine("The price for " + nights + " nights is $" + prices[arrayLocation]);
+            WriteLine("The price for " + nights + " nights is $" + pricePerNight + " per night. Your total will be $" + total);
         } 
     }
 }
