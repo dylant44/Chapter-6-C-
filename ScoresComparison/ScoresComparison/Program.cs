@@ -24,11 +24,11 @@ namespace ScoresComparison
 
                 if (scores[i] > prevScore)
                 {
-                    improvement = improvement + 1;
+                    improvement = improvement + 10;
                 }
                 else if(scores[i] < prevScore)
                 {
-                    improvement = improvement + 2;
+                    improvement = improvement + 1;
                 }
                 else if(scores[i] == prevScore)
                 {
@@ -39,7 +39,7 @@ namespace ScoresComparison
 
             WriteLine("");
 
-            if (improvement == 4)
+            if (improvement == 40)
             {
                 for (int j = 0; j < 4; j++)
                 {
@@ -60,9 +60,6 @@ namespace ScoresComparison
                 {
                     WriteLine(scores[j]);
                 }
-
-                // just need to do the inconsistent score message
-
             }
         }
     }
