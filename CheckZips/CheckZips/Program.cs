@@ -11,16 +11,21 @@ namespace CheckZips
     {
         static void Main(string[] args)
         {
-            int[] zipCode = {52801, 52801, 52803, 52804, 52805, 52806, 52807, 52808, 52809, 52810 };
             int userZip = 0;
-            int result = 0;
 
             WriteLine("Enter you zip code to see if we deliver to your area");
             userZip = Convert.ToInt32(ReadLine());
 
-            for(int i = 0; i < 10; i++)
+            displayZips(userZip);
+        }
+        public static void displayZips(int userZip)
+        {
+            int[] zipCode = { 52801, 52801, 52803, 52804, 52805, 52806, 52807, 52808, 52809, 52810 };
+            int result = 0;
+
+            for (int i = 0; i < 10; i++)
             {
-                if(zipCode[i] == userZip)
+                if (zipCode[i] == userZip)
                 {
                     WriteLine("Yes we deliver to your area");
                     result = 1;
